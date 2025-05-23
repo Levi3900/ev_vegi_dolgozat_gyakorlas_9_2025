@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(138, 76%, 97%);
+    color: #1a3e2e;
+}
+
+nav {
+    background-color: #10b981;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: #059669;
+    text-decoration: none;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #047857;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    font-size: 3em;
+}
+article {
+    max-width: 900px;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    margin: auto;
+}
+
+section {
+    align-items: center;
+    text-align: center;
+    background-color: #e6fef1;
+    border-left:  #10b981;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.);
+    border-left: #10b981 5px solid;
+}
+
+.szoveg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: justify;
+    margin-bottom: 1em;
+    font-size: 1.3rem;
+}
+
+h2 {
+    color: #065f46;
+    margin-top: none;
+    font-size: 1.8rem;
+}
+
+.szoveg img {
+    width: 100%;
+    border-radius: 5px;
+    border-top: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 100px;
+    padding: 100px;
+    color: white;
+    background-color: #1a3e2e;
+    text-align: center;
+}
+
+footer p {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .szoveg {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 1.5rem;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
